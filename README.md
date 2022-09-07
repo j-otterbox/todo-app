@@ -10,7 +10,7 @@ Try it [here](https://j-otterbox.github.io/todo-app/)
 
 <br>
 
-
+![Todo App Screenshot](https://github.com/j-otterbox/todo-app/blob/main/todo-app-screenshot.png "Todo App in use")
 
 ## Summary
 
