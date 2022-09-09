@@ -1,20 +1,20 @@
-# Javascript Todo App
+# JavaScript Calculator App
 
 <br>
 
-_Simple application for keeping track of tasks written in pure Javascript, HTML and CSS_
+_Simple application for performing arithmetic written in HTML, CSS, and JavaScript_
 
 <br>
 
-Try it [here](https://j-otterbox.github.io/todo-app/)
+Try it [here](https://j-otterbox.github.io/js-calculator/)
 
 <br>
 
-![Todo App Screenshot](https://github.com/j-otterbox/todo-app/blob/main/todo-app-demo.gif "Todo App in use")
+![Calculator App Demo](https://github.com/j-otterbox/js-calculator/blob/main/calc-app-demo.gif "Calculator app in use")
 
 ## Summary
 
-This is a project I worked on for SDMM, a quick exercise that was good for some practice with web development fundamentals.
+This is another project I worked on for SDMM, a bit more challenging than the previus exercises and good for more practice with web development fundamentals.
 
 ## Author
 
