@@ -1,13 +1,13 @@
+const todoTxtInput = document.querySelector(".todo-txt");
+
 const addBtn = document.querySelector(".add-btn");
 addBtn.addEventListener("click", addBtnClickHandler);
 
-const todoTxtInput = document.querySelector(".todo-txt");
+const deleteBtn = document.querySelector(".delete-btn");
+deleteBtn.addEventListener("click", deleteBtnClickHandler);
 
 const todosList = document.querySelector(".todos-list");
 todosList.addEventListener("click", todoListClickHandler);
-
-const deleteBtn = document.querySelector(".delete-btn");
-deleteBtn.addEventListener("click", deleteBtnClickHandler);
 
 function addBtnClickHandler(e) {
   e.preventDefault();
@@ -25,15 +25,12 @@ function addBtnClickHandler(e) {
 function deleteBtnClickHandler() {
   const listItems = Array.from(todosList.querySelectorAll("li"));
   for (const elem of listItems) {
-    if (elem.dataset.done === "true") elem.remove();
+    if (elem.classList.contains("done")) elem.remove();
   }
 }
 
 function todoListClickHandler(e) {
   if (e.target.tagName === "LI") {
-    if (!e.target.classList.contains("done")) {
-      e.target.dataset.done = "true";
-    } else e.target.dataset.done = "false";
     e.target.classList.toggle("done");
   }
 }
