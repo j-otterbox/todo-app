@@ -14,7 +14,7 @@ Try it [here](https://j-otterbox.github.io/todo-app/)
 
 ## Summary
 
-This is a project I worked on for SDMM, a quick exercise that was good for some practice with web development fundamentals.
+This is a project I worked on for the SDMM program as an assessment of my web development skills. It involves many of the fundamentals of working with webpages such as manipulating the DOM in response to user input.  
 
 ## Author
 
